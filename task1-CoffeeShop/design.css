@@ -1,0 +1,133 @@
+:root{
+    --primary: #6f4e37e2;
+    --background-color: #f5dfc2;
+    --light: #f5deb3;
+    --ink: #3D2314;
+    --background: #0e0800;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('background.png');
+    background-size: 100% 100%; 
+    height: 100vh; 
+    background-position: right center;
+    padding: 40px 200px;
+    overflow: hidden
+}
+header img {
+    width: 150px;
+    height: auto;
+    float: left;
+    top: 0;
+}
+.nav{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    margin-top: 25px;
+
+}
+.nav-item{
+    margin-left: 60px;
+    display: inline-block; 
+}
+.nav-item a{
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: var(--primary);
+}
+#menu a{
+    color: var(--background-color);
+    background-color: var(--ink);
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+.home{
+   padding: 100px 0;
+   margin-top: 100px;
+}
+.home h1{
+    font-size: 60px;
+    color: var(--ink);
+    margin-bottom: 20px;
+}
+.home p{
+    font-size: 20px;
+    color: var(--ink);
+    margin-bottom: 10px;
+
+}
+.home_buttons a{
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--background-color);
+    padding: 10px 30px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+#locs {
+    background-color:transparent;
+    border-style: solid;
+    border-color: var(--primary);
+    border-width: 2px;
+    color: var(--primary);
+}
+.about{
+    padding: 100px 200px;
+    background-color: var(--background);
+    color: var(--background-color);
+}
+.first{
+        overflow: hidden;
+}
+.first img{
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.first h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.first p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.second{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.second img{
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.second h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.second p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+}

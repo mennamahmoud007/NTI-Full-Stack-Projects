@@ -10,30 +10,32 @@
     <header>
     <img src="logo.png" alt="logo">
       <ul class="nav">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">About</a></li>
-        <li class="nav-item"><a href="#">Locations</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
-        <li class="nav-item"><a href="https://drive.google.com/file/d/1N3eJFAA2GHolopaNFJ7CZrtiYGQfQAnl/view?usp=drive_link" target="_blank" rel="noopener">Menu</a></li>
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#locations">Locations</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+        <li class="nav-item" id="menu"><a href="https://drive.google.com/file/d/1N3eJFAA2GHolopaNFJ7CZrtiYGQfQAnl/view?usp=drive_link" target="_blank" rel="noopener">Menu</a></li>
       </ul>
+      <section class="home" id="home">
+           <h1>Brewed To Perfection,</h1>
+            <h1>
+            Served With Love
+           </h1>
+           <p>
+              Indulge in handcrafted coffee, freshly baked pastries, and a welcoming 
+            </p>
+            <p>
+             atmosphere designed to inspire and unwind.
+           </p>
+          <div class="home_buttons">
+            <a href="https://drive.google.com/file/d/1N3eJFAA2GHolopaNFJ7CZrtiYGQfQAnl/view?usp=drive_link" target="_blank" rel="noopener">Show Menu</a>
+              <a href="#locations" id="locs">Find a location</a>
+          </div>
+      </section>
     </header>
-    <main>
-        
-    <section class="home">
-        <h1>Brewed To Perfection,
-          Served With Love
-        </h1>
-        <p>
-            Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere
-           designed to inspire and unwind.
-        </p>
-        <div class="home_buttons">
-          <a href="https://drive.google.com/file/d/1N3eJFAA2GHolopaNFJ7CZrtiYGQfQAnl/view?usp=drive_link" target="_blank" rel="noopener">show menu</a>
-            <a href= "#">find a location</a>
-        </div>
-    </section>
-  
-    <section class="about">
+
+    <main>    
+    <section class="about" id="about">
         <div class="first">
             <img src="img1.png" alt="coffee">
             <h2>Handmade Just For You</h2>
@@ -44,20 +46,19 @@
             </p>
         </div>
         <div class="second">
+            <img src="img2.png" alt="pastries">
             <h2>Made In Brussels</h2>
             <p>
                 Welcome to Brussels Brewery, where the charm of Brussels meets the
                 aroma of freshly brewed coffee. Our cafe is a cozy haven where friends
                 gather, ideas spark, and every sip tells a story
-            </p> 
-        
+            </p> <br/>
             <p>
-                Come and experience the soul of Brussels in every cup and bite-we can't wait to welcome you!
+                Come and experience the soul of Brussels in every cup and bite - we can't wait to welcome you!
             </p>
-            <img src="img2.png" alt="pastries">
         </div>
     </section>
-    <section class="locations">
+    <section class="locations" id="locations">
         <img src="img3.png" alt="locations">
         <h2>Find your nearest Location</h2>
 
@@ -80,7 +81,7 @@
         </div>
     </section>   
     </main>
-    <footer>
+    <footer id="contact">
         <div class="footer_top">
             <img src="logo.png" alt="logo">
             <p>Brewed To Perfection, Served With Love</p>
