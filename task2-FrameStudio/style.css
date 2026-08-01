@@ -46,7 +46,14 @@ h1,h2,h3,h4,h5,h6,
 .service-img:hover{
     transform: scale(1.1);
 }
-
+/*for about section*/
+.about-img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.25);
+}
 /* for numbers section */
 #numbers{
     
