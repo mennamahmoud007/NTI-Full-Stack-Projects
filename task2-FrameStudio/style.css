@@ -1,0 +1,70 @@
+/* for color variables & font*/
+:root{
+    --navy:#0a192f;
+    --blue:#1e3b8a2a;
+    --gray:#334155;
+}
+
+.bg-navy{
+    background-color: var(--navy) !important;
+}
+
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+.bg-gray{
+    background-color: var(--gray) !important;
+}
+h1,h2,h3,h4,h5,h6,
+.navbar-brand{
+    font-family:"Playfair Display", serif;
+}
+/* for navbar scrolled & active link */
+#navbar{
+    transition: .4s;
+}
+#navbar.scrolled{
+    background: var(--navy);
+    box-shadow:0 4px 15px rgba(0,0,0,.25);
+}
+
+/* for hero section */
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* for service section */
+.service-img{
+    transition: all 0.3s ease-in-out;
+}
+
+.service-img:hover{
+    transform: scale(1.1);
+}
+
+/* for numbers section */
+#numbers{
+    
+    padding:120px 0;
+}
+#numbers h2{
+    font-size:3rem;
+}
+#numbers p{
+    font-size:1.2rem;
+}
+/* for contact section */
+.icon:hover{
+    background-color: var(--blue);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.form-control::placeholder{
+    color: rgba(255,255,255,.6) !important;
+    opacity: 1 !important;
+}
