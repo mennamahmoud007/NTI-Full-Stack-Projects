@@ -75,3 +75,38 @@ h1,h2,h3,h4,h5,h6,
     color: rgba(255,255,255,.6) !important;
     opacity: 1 !important;
 }
+/* for footer section */
+.footer{
+    padding: 20px 0;
+}
+
+.footer-container{
+    width: 90%;
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #ffc107;
+    margin: 0;
+}
+
+.back-to-top{
+    width: 45px;
+    height: 45px;
+    background-color: #ffc107;
+    color: var(--navy);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.back-to-top:hover{
+    background-color: #e0a800;
+}
